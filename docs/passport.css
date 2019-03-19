@@ -1,0 +1,74 @@
+/* passport sign up */
+
+.grey-bg,
+.top-row-grey {
+    background-color: #fff;
+}
+
+#login-content {
+    border-top: none;
+}
+
+.passport-holder {
+    font-size: 100%;
+    font-weight: 400;
+    padding-left: 10px;
+    color: #7D7D7D;
+}
+
+.signup-hero {
+    background-image: url(https://everpath-course-content.s3-accelerate.amazonaws.com/instructor%2Fpatrick_kim_liferay_com_brv6j7%2Fpublic%2FRectangle+1023.1532124586290.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 20em;
+}
+
+label {
+    font-size: 1.25em;
+    margin-bottom: .5em;
+}
+
+.field-access-flow ul li:nth-child(2) {
+    margin-top: 70px !important;
+}
+
+.link-text {
+    font-size: 1.25em;
+}
+
+.help-text,
+form .help-text {
+    color: #4d4d4d;
+    font-size: 20px;
+}
+
+/* hero image */
+
+.sj-page-catalog .catalog-header .catalog-hero {
+    background-image: url(https://learnliferay.wedeploy.io/images/university/Passport-Liferay-Hero.svg);
+    background-size: contain;
+    background-position: 100% 50%;
+}
+
+/* hide prices from courses */
+
+a.coursebox-container .storefront-price,
+a.coursebox-container .course-series-count {
+    display: none;
+}
+
+a.coursebox-container.course .coursebox-text-description {
+    display: none !important;
+}
+
+@media screen and (max-width: 900px) {
+    .sj-page-catalog .catalog-header .catalog-hero {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 1213px) {
+    .sj-page-catalog .catalog-header .catalog-hero {
+        background-size: 50%;
+    }
+}
